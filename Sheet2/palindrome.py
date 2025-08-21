@@ -5,4 +5,4 @@ for i in range(1, n+1):
         sum += i
         # print(i)
 
-print(f"Sum of odd number from 1 to {n} is: {sum}")
+print("Sum of odd number from 1 to n is",sum)
