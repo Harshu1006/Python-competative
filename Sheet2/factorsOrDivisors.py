@@ -3,4 +3,4 @@ power = int(input("Enter the power: "))
 
 
 result = num**power
-print("num power power is:",result)
+print("num  of power  is:",result)
