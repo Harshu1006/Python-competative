@@ -1,6 +1,11 @@
-a = int(input("Enter a number a: "))
-b = int(input("Enter the number b: "))
-if a > b:
-    print("a is greater than b")
+a = int(input("Enter number a: "))
+b = int(input("Enter number b: "))
+c = int(input("Enter number c: "))
+
+if a < b and a < c:
+    print("a is the smallest")
+elif b < c:
+    print("b is the smallest")
 else:
-    print("b is greater than a")
+    print("c is the smallest")
+
