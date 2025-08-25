@@ -1,4 +1,6 @@
-n = int(input("Enter a number: "))
-while n> 0:
-    print(n, end=' ')
-    n-=1
+a = int(input("Enter a number a: "))
+b = int(input("Enter the number b: "))
+if a > b:
+    print("a is greater than b")
+else:
+    print("b is greater than a")
