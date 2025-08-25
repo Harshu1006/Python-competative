@@ -2,9 +2,9 @@ a = int(input("Enter number a: "))
 b = int(input("Enter number b: "))
 c = int(input("Enter number c: "))
 
-if a < b and a < c:
-    print("a is the smallest")
-elif b < c:
-    print("b is the smallest")
+if a > b and a > c:
+    print("a is the greatest")
+elif b > c:
+    print("b is the greatest")
 else:
-    print("c is the smallest")
+    print("c is the greatest")
